@@ -1,13 +1,26 @@
 {
-  "private": true,
   "name": "blog",
+  "private": true,
   "version": "1.0.0",
+  "description": "pewriebontal's personal space.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pewriebontal/blog"
+  },
+  "keywords": [
+    "Blog",
+    "React",
+    "Gatsby"
+  ],
+  "author": "pewriebontal <pewriebontal@outlook.com>",
   "license": "MIT",
   "scripts": {
     "start": "yarn dev",
     "build": "gatsby build",
     "dev": "gatsby develop",
+    "format": "prettier --write .",
     "clean": "gatsby clean",
+    "serve": "gatsby serve",
     "proxy": "netlify-cms-proxy-server"
   },
   "dependencies": {
@@ -15,9 +28,17 @@
     "gatsby": "^2.13.41",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.1.40",
+    "gatsby-plugin-clarity": "^1.0.0",
+    "gatsby-plugin-offline": "^4.5.1",
+    "gatsby-plugin-html-comments": "^1.0.0",
     "netlify-cms-app": "^2.11.23",
     "netlify-cms-proxy-server": "^1.1.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "eslint": "7.26.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.0"
   }
 }
