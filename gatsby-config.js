@@ -36,6 +36,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-plugin-clarity`,
+      options: {
+        clarity_project_id: "6viojl2lv6",
+
+        enable_on_dev_env: false,
+      },
+    },
+    {
       resolve: "@narative/gatsby-theme-novela",
       options: {
         contentPosts: "content/posts",
