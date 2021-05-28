@@ -1,5 +1,5 @@
-import React from "react";
-import { image } from "image-q";
+import React from 'react';
+import { image } from 'image-q';
 
 /**
  * Paste in your SVG logo and return it from this component.

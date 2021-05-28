@@ -4,8 +4,8 @@ module.exports = {
     name: `Blog | pewriebontal`,
     siteUrl: `https://blog.pewriebontal.ml`,
     description: `pewriebontal's personal blog.`,
-    twitterUsername: "@pewriebontal",
-    keywords: "pewrie bontal, Min Thu Khine, pewriebontal",
+    twitterUsername: '@pewriebontal',
+    keywords: 'pewrie bontal, Min Thu Khine, pewriebontal, Blog',
     hero: {
       heading: `Welcome to Blog, pewriebontal's personal space.`,
       maxWidth: 652,
@@ -38,17 +38,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-clarity`,
       options: {
-        clarity_project_id: "6viojl2lv6",
+        clarity_project_id: '6viojl2lv6',
 
         enable_on_dev_env: false,
       },
     },
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: '@narative/gatsby-theme-novela',
       options: {
-        contentPosts: "content/posts",
-        contentAuthors: "content/authors",
-        basePath: "/",
+        contentPosts: 'content/posts',
+        contentAuthors: 'content/authors',
+        basePath: '/',
         authorsPage: true,
         sources: {
           local: true,
@@ -63,7 +63,7 @@ module.exports = {
         short_name: `Blog`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#fff`,
+        theme_color: `#1f1f1f`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
       },
