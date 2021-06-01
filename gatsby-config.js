@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Blog | pewriebontal`,
-    name: `Blog | pewriebontal`,
+    name: `pewriebontal`,
     siteUrl: `https://blog.pewriebontal.ml`,
     description: `pewriebontal's personal blog.`,
     twitterUsername: '@pewriebontal',
-    keywords: 'pewrie bontal, Min Thu Khine, pewriebontal, Blog',
+    keywords: ' Blog, pewrie bontal, Min Thu Khine, pewriebontal.',
     hero: {
       heading: `Welcome to Blog, pewriebontal's personal space.`,
       maxWidth: 652,
