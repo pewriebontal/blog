@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# run this ' chmod +x clean'
+
+##############################################################################
+##
+##  Clean workspace script for UN*X
+##
+##############################################################################
+
+rm -rf node_modules/
+rm -rf public/
+rm -rf .cache/
+
+echo "cleaned"
