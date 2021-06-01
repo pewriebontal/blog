@@ -36,6 +36,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://blog.pewriebontal.ml`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-clarity`,
       options: {
         clarity_project_id: '6viojl2lv6',

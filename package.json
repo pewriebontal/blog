@@ -26,6 +26,7 @@
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
     "gatsby": "^2.13.41",
+    "gatsby-plugin-canonical-urls": "^3.6.0",
     "gatsby-plugin-clarity": "^1.0.0",
     "gatsby-plugin-html-comments": "^1.0.0",
     "gatsby-plugin-manifest": "^2.2.4",
