@@ -7,6 +7,7 @@ import React from 'react';
  * Logo comes with a property value called `fill`. `fill` is useful
  * when you want to change your logo depending on the theme you are on.
  */
+
 export default function Logo({ fill }) {
   return (
     <svg

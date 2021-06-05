@@ -1,7 +1,7 @@
 @echo off
 @rem ##########################################################################
 @rem
-@rem   Clean workingdir script for Windows
+@rem   Clean workspace script for Windows
 @rem
 @rem ##########################################################################
 

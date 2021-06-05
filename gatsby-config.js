@@ -34,7 +34,26 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/authors/*`, `/static/*`, `/404.html`],
+        runtimeCaching: [
+          {
+            // Use cacheFirst since these don't need to be revalidated (same RegExp
+            // and same reason as above)
+            urlPattern: /(\.js$|\.css$|static\/)/,
+            handler: `CacheFirst`,
+          },
+          {
+            // Add runtime caching of various other page resources
+            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+            handler: `StaleWhileRevalidate`,
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
