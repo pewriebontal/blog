@@ -1854,10 +1854,9 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.11.tgz#6a4b5891dccb6402ff4e944de843036ee1ffd4f5"
   integrity sha512-nEBLOa0JgtqahmPrnJZ18epLiFBzxhdKgo4uhN3TaBFRmM30pEVrS9FAEV4tg92d8PTdU+dYQx2lnpPyFMgMcg==
 
-"@narative/gatsby-theme-novela@^0.*":
+"@narative/gatsby-theme-novela@pewriebontal/gatsby-theme-novela#unicorn":
   version "0.18.7"
-  resolved "https://registry.yarnpkg.com/@narative/gatsby-theme-novela/-/gatsby-theme-novela-0.18.7.tgz#c98572ba157def7243054f87b50a82a7b3f1f517"
-  integrity sha512-Eofe+vyLgFiLn3MLgjGkFA0AnmgEW0ikVASIJjSRjXEIBJ/l+KAbMz6eSUIXsM+w4jzE7T/XdeSkFqw+DUf+yA==
+  resolved "https://codeload.github.com/pewriebontal/gatsby-theme-novela/tar.gz/a3c22d1017011ea318ded455bf678fe468312af0"
   dependencies:
     "@blocks/kit" "^0.0.28"
     "@emotion/core" "^10.0.14"

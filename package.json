@@ -24,7 +24,7 @@
     "proxy": "netlify-cms-proxy-server"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.*",
+    "@narative/gatsby-theme-novela": "pewriebontal/gatsby-theme-novela#unicorn",
     "gatsby": "^2.13.41",
     "gatsby-plugin-advanced-sitemap": "^2.0.0",
     "gatsby-plugin-canonical-urls": "^3.6.0",
